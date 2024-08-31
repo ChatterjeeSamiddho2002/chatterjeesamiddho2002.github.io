@@ -3,28 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samiddho</title>
-    <style>
-        body{
-            background-image: linear-gradient(to right, #8181f7,#94D3A6);
-            margin:0;
-            padding:0;
-            display: grid;
-            place-items: center;
-            width:100%;
-            height:100vh;
-            font-family: 'Courier New', Courier, monospace;
-        }
-        
-        h2:hover{
-            color:gray;
-            cursor: pointer;
-        }
-    </style>
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello Everyone!!</h1>
-    <h2>Samiddho Chatterjee this Side</h2>
-    <h3>An Electronics Enthusiast</h3>
+    <div class="ipad-container">
+        <div class="ipad-frame">
+            <div class="screen">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#intro">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <section class="section intro" id="intro">
+                        <h1><strong>Hello, I'm Samiddho!</strong></h1>
+                        <p>Welcome to my domain!</p>
+                    </section>
+                    <section class="section about" id="about">
+                        <h2><strong>About Me</strong></h2>
+                        <p>I'm an electronics engineering student with a passion for technology and innovation, with specific interest in Antenna designing, Radar Systems, Satellite Communication and Analog Circuits.</p>
+                    </section>
+                    <section class="section skills" id="skills">
+                        <h2><strong>Skills and Courses</strong></h2>
+                        <ul>
+                            <li><strong>Programming Languages:</strong> Java, C, C++, Verilog, MATLAB</li>
+                            <li><strong>Tools:</strong> MATLAB, Simulink, ModelSim, TinkerCAD, ANSYS, LT Spice, OptiSystem, Keil Microvision</li>
+                            <li><strong>Technologies:</strong> Artificial Intelligence and Machine Learning, Internet of Things</li>
+                            <li><strong>Notable Courses:</strong> Analog Circuits, Microwave and Antenna Engineering, Artificial Intelligence and Machine Learning, Wireless Communication, Satellite Communication, Radar Systems, Data Structures and Algorithms, Business Analytics, Marketing Management</li>
+                            <li><strong>Other Skills:</strong> Team player, Leadership, Communication, Critical Thinking, Decision Making</li>
+                        </ul>
+                    </section>
+                    <section class="section projects" id="projects">
+                        <h2><strong>Projects Done by Me</strong></h2>
+                        <ul>
+                            <li><strong>Project Title:</strong> <strong>Li-Fi Technology:</strong> Designed and implemented a hardware model for Li-Fi communication, utilizing photodiodes, LEDs, and microcontrollers for high-speed data transmission via visible light.</li>
+                            <li><strong>Project Title:</strong> <strong></strong>6G Antenna for Mobile Phones:</strong> Designing and simulating a 6G mobile antenna using ANSYS HFSS to optimize antenna performance through electromagnetic simulations, focusing on parameters like gain, bandwidth, and radiation pattern.</li>
+                            <li><strong>Project Title:</strong> <strong>Wearable Antenna:</strong> Designing and implementing an ultra wide band antenna for wearables, utilizing high frequencies for detecting tumours inside the human body.</li>
+                            <li><strong>Project Title:</strong> <strong>A self Diplexing Antenna for Biomedical Applications:</strong> Designing and implementing an antenna using MIMO concept for Biomedical Applications.</li>
+                        </ul>
+                    </section>
+                    <section class="section contact" id="contact">
+                        <h2><strong>Contact Me</strong></h2>
+                        <p><strong>Email:</strong> samiddhochatterjee2025@gmail.com | chatterjeesamiddho@gmail.com</p>
+                        <p><strong>LinkedIn:</strong> www.linkedin.com/in/samiddho-chatterjee-6a650b221</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
