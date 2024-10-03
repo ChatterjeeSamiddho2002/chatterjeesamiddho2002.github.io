@@ -1,31 +1,28 @@
-// script.js
-
-// Smooth scrolling for navigation links
-document.querySelectorAll('.navbar a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        const targetID = this.getAttribute('href').substring(1);
-        const targetSection = document.getElementById(targetID);
-
-        // Smooth scroll to the section
-        targetSection.scrollIntoView({
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
     });
 });
 
-// Dynamic content loading (optional enhancement)
-document.addEventListener('DOMContentLoaded', function() {
-    const projectsSection = document.querySelector('.projects ul');
-    const projects = [
+const menuToggle = document.querySelector('.menu-toggle');
+const navList = document.querySelector('nav ul');
 
-    ];
+menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('show');
+});
 
-    projects.forEach(project => {
-        const listItem = document.createElement('li');
-        listItem.textContent = `${project.title}: ${project.description}`;
-        projectsSection.appendChild(listItem);
+document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', () => {
+        navList.classList.remove('show');
     });
 });
 
-// Add more JavaScript interactivity as needed
+document.addEventListener('click', (event) => {
+    const isClickInsideNav = navList.contains(event.target) || menuToggle.contains(event.target);
+    if (!isClickInsideNav && navList.classList.contains('show')) {
+        navList.classList.remove('show');
+    }
+});
