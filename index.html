@@ -1,113 +1,527 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samiddho Chatterjee - Portfolio</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Samiddho Chatterjee | Electronics Engineer</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <button class="menu-toggle" aria-label="Toggle menu">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
 
-    <main>
-        <section id="home" class="hero">
-            <div class="container">
-                <h1>Samiddho Chatterjee</h1>
-                <p>Electronics Engineering Student | Innovator | Tech Enthusiast</p>
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/me.jpeg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Open Varad's resume in a new tab" href="https://varadbhogayata.github.io/Samiddho_CV.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Samiddho
+        Chatterjee</a><span class="black-text">Electronics Engineer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Varad's Resume in a new tab"
+          href="https://varadbhogayata.github.io/Samiddho_CV.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Samiddho Chatterjee.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <h5>Self-driven, quick starter, passionate engineer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
             </div>
-        </section>
-
-        <section id="about">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>I'm an electronics engineering student with a passion for technology and innovation. My interests lie in Antenna designing, Radar Systems, Satellite Communication, and Analog Circuits. I'm constantly seeking new challenges and opportunities to grow in the field of electronics and communication.</p>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/samiddho-chatterjee-6a650b221" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/ChatterjeeSamiddho2002/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
             </div>
-        </section>
-
-        <section id="skills">
-            <div class="container">
-                <h2>Skills and Expertise</h2>
-                <div class="skills-list">
-                    <div class="skill-item">
-                        <h3>Programming Languages</h3>
-                        <p>Java, C, C++, Verilog, MATLAB</p>
-                    </div>
-                    <div class="skill-item">
-                        <h3>Tools</h3>
-                        <p>MATLAB, Simulink, ModelSim, TinkerCAD, ANSYS, LT Spice, OptiSystem, Keil Microvision</p>
-                    </div>
-                    <div class="skill-item">
-                        <h3>Technologies</h3>
-                        <p>Artificial Intelligence, Machine Learning, Internet of Things</p>
-                    </div>
-                    <div class="skill-item">
-                        <h3>Soft Skills</h3>
-                        <p>Team player, Leadership, Communication, Critical Thinking, Decision Making</p>
-                    </div>
-                </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
             </div>
-        </section>
-
-        <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="projects-list">
-                    <div class="project-item">
-                        <h3>Li-Fi Technology</h3>
-                        <p>Designed and implemented a hardware model for Li-Fi communication, utilizing photodiodes, LEDs, and microcontrollers for high-speed data transmission via visible light.</p>
-                    </div>
-                    <div class="project-item">
-                        <h3>6G Antenna for Mobile Phones</h3>
-                        <p>Designing and simulating a 6G mobile antenna using ANSYS HFSS to optimize antenna performance through electromagnetic simulations, focusing on parameters like gain, bandwidth, and radiation pattern.</p>
-                    </div>
-                    <div class="project-item">
-                        <h3>Wearable Antenna</h3>
-                        <p>Designing and implementing an ultra wide band antenna for wearables, utilizing high frequencies for detecting tumours inside the human body.</p>
-                    </div>
-                    <div class="project-item">
-                        <h3>A Self Diplexing Antenna for Biomedical Applications</h3>
-                        <p>Designing and implementing an antenna using MIMO concept for Biomedical Applications.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <h2>Contact Me</h2>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <p><a href="mailto:samiddhochatterjee2025@gmail.com" target="_blank">samiddhochatterjee2025@gmail.com</a></p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <p><a href="https://www.linkedin.com/in/samiddho-chatterjee-6a650b221" target="_blank">LinkedIn Profile</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Samiddho Chatterjee. All rights reserved.</p>
+          </div>
         </div>
-    </footer>
-    <script src="script.js"></script>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+     
+        <p>
+          I am an Electronics and Communication Undergrad student at Vellore Institute of Technology. I enjoy problem-solving and circuit analysis. I have worked on technologies like Python, C, C++, Ansys Electronics, LT Spice, Keil Microvision, MATLAB and Simulink, ModelSim during my bachelor's. I am a fresher currently exploring opportunities in Analog Circuitry or RF circuits designing. I am passionate about solving real-world problems impacting millions of users.
+        </p>
+        <p>
+          <ul>
+            <li><b>Languages:</b> C, C++, Java, Python (all basic levels)</li>
+            <li><b>Tools:</b> Internet of Things, Artificial Intelligence, Machine Learning</li>
+            <li><b>Softwares Used:</b> Ansys Electronics, LT Spice, Keil Microvision, MATLAB and Simulink, ModelSim, Google Colab</li>
+          </ul>
+        </p>
+        
+        
+        <p>
+          Looking for an opportunity to work in a challenging position combining my skills in electronics departments, which provides professional development, interesting experiences and personal growth.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.linkedin.com/posts/samiddho-chatterjee-6a650b221_hello-everyone-hope-this-post-finds-you-activity-7134378843431202816-7yxD?utm_source=share&utm_medium=member_desktop" 
+                   target="_blank">
+                </a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title">
+                    <a href="https://www.linkedin.com/posts/samiddho-chatterjee-6a650b221_hello-everyone-hope-this-post-finds-you-activity-7134378843431202816-7yxD?utm_source=share&utm_medium=member_desktop" 
+                       target="_blank" 
+                       class="teal-text hoverline">Maven Silicon Certification Course</a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Project: AHB to APB Bridge Design</div>
+            <ul>
+              <li>
+                Developed an AHB to APB bridge design using Quartus Prime and ModelSim (Verilog).
+              </li>
+              <li>
+                Certification details: 
+                <a href="https://www.linkedin.com/posts/samiddho-chatterjee-6a650b221_hello-everyone-hope-this-post-finds-you-activity-7134378843431202816-7yxD?utm_source=share&utm_medium=member_desktop" 
+                   target="_blank">View Certification Post 1</a>, 
+                <a href="https://www.linkedin.com/posts/samiddho-chatterjee-6a650b221_hello-everyone-hope-this-post-finds-you-activity-7133668911694155776-ewf-?utm_source=share&utm_medium=member_desktop" 
+                   target="_blank">View Certification Post 2</a>
+              </li>
+              <li>
+                <b>Tools:</b> Quartus Prime, ModelSim
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Certification Date: Recently completed</span>
+          </div>
+        </div>
+        
+
+      </div>
+    </section>
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of Li-Fi Technology project" 
+                     src="/assets/img/pjt1.jpeg" 
+                     style="height: 100%; width: 100%" 
+                     class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Li-Fi Technology (Hardware)<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A hardware-based project demonstrating the transmission of data using light as the medium.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>
+                    Tools Needed: Small LED (light source), Wires, AUX cable, Encoder and Decoder, Speaker (output device).
+                  </li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit LinkedIn post for Li-Fi Technology project"
+                     href="https://www.linkedin.com/posts/samiddho-chatterjee-6a650b221_hello-connections-continuing-from-my-previous-activity-7083361287241400320-DSyP?utm_source=share&utm_medium=member_desktop" 
+                     target="_blank"
+                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of OCR project" 
+                     src="/assets/img/pjt2.jpeg" 
+                     style="height: 100%; width: 100%" 
+                     class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Optical Character Recognition<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A mini-project using Google Colab to extract text from images.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Tools Needed: Google Colab</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="View OCR project demo video"
+                     href="https://youtu.be/HsHYX_ioPYk" 
+                     target="_blank"
+                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of Radar Signal Processing project" 
+                     src="/assets/img/pjt3.jpeg" 
+                     style="height: 100%; width: 100%" 
+                     class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Radar Signal Processing<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  An ongoing project applying deep learning for radar signal processing and landslide detection using SAR images.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Tools Needed: Google Colab, Power BI, Seaborn</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- ************* -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Languages -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="C Language Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1853px-C_Programming_Language.svg.png" class="responsive-img" />C
+              </div>
+              <div class="col s4 m2">
+                <img alt="C++ Logo" src="https://raw.githubusercontent.com/Benio101/cpp-logo/master/cpp_logo.png" class="responsive-img" />C++
+              </div>
+              <div class="col s4 m2">
+                <img alt="Java Logo" src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png?f=webp&w=256" class="responsive-img" />Java
+              </div>
+              <div class="col s4 m2">
+                <img alt="Python Logo" src="https://i.pinimg.com/originals/82/a2/18/82a2188c985ce75402ae44fc43fe7e5e.png" class="responsive-img" />Python
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Tools -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Tools</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="IoT Logo" src="https://static.vecteezy.com/system/resources/previews/010/213/270/non_2x/iot-letter-technology-logo-design-on-white-background-iot-creative-initials-letter-it-logo-concept-iot-letter-design-vector.jpg" class="responsive-img" />Internet of Things
+              </div>
+              <div class="col s4 m2">
+                <img alt="AI Logo" src="https://www.shutterstock.com/image-vector/generate-ai-artificial-intelligence-logo-600nw-2492648973.jpg" class="responsive-img" />Artificial Intelligence
+              </div>
+              <div class="col s4 m2">
+                <img alt="ML Logo" src="https://img.freepik.com/premium-vector/ml-logo-business-consulting_296091-1104.jpg?w=360" class="responsive-img" />Machine Learning
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Softwares -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Softwares Used</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="Ansys Electronics Logo" src="https://www.nafems.org/images/tmp/3436792.pagespeed.1695892178.png" class="responsive-img" />Ansys Electronics
+              </div>
+              <div class="col s4 m2">
+                <img alt="LT Spice Logo" src="https://pbs.twimg.com/profile_images/839168408490913792/ukNPeWwa_400x400.jpg" class="responsive-img" />LT Spice
+              </div>
+              <div class="col s4 m2">
+                <img alt="Keil Microvision Logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh55mbY4PRpmVm1q_U31SVRvsSowjEeE7MlQ&s" class="responsive-img" />Keil Microvision
+              </div>
+              <div class="col s4 m2">
+                <img alt="MATLAB Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/670px-Matlab_Logo.png?20240227214640" class="responsive-img" />MATLAB and Simulink
+              </div>
+              <div class="col s4 m2">
+                <img alt="ModelSim Logo" src="https://downloadlynet.ir/wp-content/uploads/2020/03/ModelSim.png" class="responsive-img" />ModelSim
+              </div>
+              <div class="col s4 m2">
+                <img alt="Google Colab Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/1200px-Google_Colaboratory_SVG_Logo.svg.png" class="responsive-img" />Google Colab
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">
+                    <a href="https://vit.ac.in/" target="_blank" class="teal-text hoverline">Vellore Institute of Technology</a>
+                  </span>
+                </p>
+                <p class="brown-text">Chennai, Tamil Nadu, India</p>
+                <p>
+                  <b>Degree:</b> Bachelors of Technology in Electronics and Communication
+                  <br>
+                  <b>CGPA:</b> 8.23/10
+                </p>
+                <ul>
+                  <p>
+                    <b>Relevant Course-work:</b>
+                  <ul>
+                    <li>Electronic Materials and Devices and Analog Circuits</li>
+                    <li>Circuit Theory</li>
+                    <li>Electromagnetic Theory and Antenna Designing</li>
+                    <li>Analog and Digital Communication Systems</li>
+                  </ul>
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Samiddho" data-position="top" data-tooltip="Call Samiddho"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Samiddho">+91 9674848918</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Samiddho" href="mailto:chatterjeesamiddho@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Samiddho" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Samiddho" href="mailto:chatterjeesamiddho@gmail.com"
+              class="hoverline">chatterjeesamiddho@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Samiddho" href="mailto:samiddhochatterjee2025@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Samiddho" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Samiddho" href="mailto:samiddhochatterjee2025@gmail.com"
+              class="hoverline">samiddhochatterjee2025@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Samiddho on GitHub" href="https://github.com/ChatterjeeSamiddho2002" target="_blank"
+            data-position="top" data-tooltip="View Samiddho on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Samiddho on GitHub" href="https://github.com/ChatterjeeSamiddho2002" class="hoverline"
+              target="_blank">github.com/ChatterjeeSamiddho2002</a></a>
+        </p>
+        <p>
+          <a aria-label="View Samiddho on LinkedIn" href="https://www.linkedin.com/in/samiddho-chatterjee-6a650b221"
+            target="_blank" data-position="top" data-tooltip="View Samiddho on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Samiddho on LinkedIn"
+              href="https://www.linkedin.com/in/samiddho-chatterjee-6a650b221" class="hoverline"
+              target="_blank">linkedin.com/in/samiddho-chatterjee-6a650b221</a></a>
+        </p>
+      </div>
+    </section>
+    
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Engineer", "Electronics Enthusiast", "Fast Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190,
+        edge: "left",
+        closeOnClick: true
+      })
+    })
+  </script>
 </body>
+
 </html>
