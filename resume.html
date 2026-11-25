@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samiddho Chatterjee — Complete CV</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "Segoe UI", system-ui, sans-serif; background: #1a1a1f; color: #222; }
+    .bar {
+      position: sticky; top: 0; z-index: 10;
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+      padding: 12px 16px; background: #0e0e12; color: #eee;
+    }
+    .bar a, .bar button {
+      color: #fff; background: #ff5a36; border: 0; border-radius: 999px;
+      padding: 10px 16px; text-decoration: none; font-size: 13px; cursor: pointer; font-family: inherit;
+    }
+    .bar a.ghost { background: transparent; border: 1px solid #444; }
+    .wrap {
+      max-width: 900px; margin: 24px auto;
+      display: grid; grid-template-columns: 240px 1fr;
+      box-shadow: 0 12px 40px rgba(0,0,0,.4);
+    }
+    .side { background: #2c3e50; color: #e8eef2; padding: 32px 22px; }
+    .side h2 {
+      font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase;
+      margin: 22px 0 8px; color: #9bb;
+    }
+    .side p, .side a, .side li { font-size: 12.5px; line-height: 1.55; color: #d5dee4; }
+    .side a { color: #9fd; text-decoration: none; word-break: break-all; }
+    .side ul { list-style: none; }
+    .side li { margin-bottom: 5px; }
+    .main { background: #fff; padding: 36px; }
+    .main h1 { font-size: 28px; font-weight: 700; }
+    .tagline { font-size: 13px; color: #555; margin: 6px 0 4px; }
+    .loc { font-size: 12px; color: #888; margin-bottom: 18px; }
+    .main h2 {
+      font-size: 16px; margin: 20px 0 10px; padding-bottom: 4px;
+      border-bottom: 2px solid #2c3e50;
+    }
+    .job { margin-bottom: 14px; page-break-inside: avoid; }
+    .job h3 { font-size: 14px; }
+    .meta { font-size: 12px; color: #666; margin: 2px 0 6px; }
+    .job p, .main li { font-size: 12.5px; line-height: 1.55; color: #333; }
+    .main ul { margin-left: 18px; }
+    @media (max-width: 720px) {
+      .wrap { grid-template-columns: 1fr; margin: 0; }
+      .side, .main { padding: 24px 18px; }
+    }
+    @media print {
+      body { background: #fff; }
+      .bar { display: none !important; }
+      .wrap { margin: 0; box-shadow: none; max-width: none; }
+      .side { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      @page { size: A4; margin: 10mm; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <a class="ghost" href="index.html">← Portfolio</a>
+    <span>Complete CV</span>
+    <button type="button" onclick="window.print()">Save as PDF ↓</button>
+  </div>
+  <div class="wrap">
+    <aside class="side">
+      <h2>Contact</h2>
+      <p>Sukalyani Housing Complex<br>5A, Nirode Behari Mullick Road<br>Kolkata 700 006</p>
+      <p style="margin-top:8px">9674848918</p>
+      <p><a href="mailto:samiddhochatterjee2026@gmail.com">samiddhochatterjee2026@gmail.com</a></p>
+      <p><a href="https://www.linkedin.com/in/samiddho-chatterjee-6a650b221">linkedin.com/in/samiddho-chatterjee-6a650b221</a></p>
+
+      <h2>Top skills</h2>
+      <ul>
+        <li>Embedded Software</li>
+        <li>Analog Circuit Design</li>
+        <li>Cadence Virtuoso</li>
+      </ul>
+
+      <h2>Languages</h2>
+      <ul>
+        <li>Bengali — Native</li>
+        <li>English — Full professional</li>
+        <li>Hindi — Professional working</li>
+        <li>Spanish — Elementary</li>
+      </ul>
+
+      <h2>Certifications</h2>
+      <ul>
+        <li>VLSI Design Internship</li>
+        <li>VLSI for Beginners</li>
+        <li>Embedded Systems Bare-Metal Programming Ground Up (STM32)</li>
+        <li>DSA in C and C++</li>
+      </ul>
+    </aside>
+    <div class="main">
+      <h1>Samiddho Chatterjee</h1>
+      <p class="tagline">Aspiring Analog IC Design Engineer | Analog VLSI | AI/ML/DL | M.Tech VLSI &amp; Embedded Systems @ BIT Mesra | B.Tech ECE @ VIT Chennai | Former KPIT intern</p>
+      <p class="loc">Kolkata, West Bengal, India</p>
+
+      <h2>Summary</h2>
+      <p>M.Tech student in ECE at BIT Mesra, specialising in VLSI Design and Embedded Systems, with a focus on analog VLSI and analog / mixed-signal IC design. Interested in transistor-level circuits: MOSFET-based blocks, small-signal analysis, analog amplifiers, differential pairs, current mirrors, cascode architectures, feedback and stability, op-amps, OTAs and mixed-signal systems.</p>
+      <p style="margin-top:8px">Tools: Cadence Virtuoso, SPICE / LTspice, Synopsys Sentaurus TCAD, MATLAB; C / Embedded C, STM32, ARM, CAN / CAN FD, AUTOSAR. Project work includes HEMT device characterisation in TCAD and a CS amplifier in Virtuoso. KPIT internship added automotive embedded systems. Leadership roles strengthened communication and collaboration.</p>
+
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Teaching Assistant — Birla Institute of Technology, Mesra</h3>
+        <p class="meta">August 2026 – November 2026 · Ranchi, Jharkhand</p>
+        <p>TA for Analog and Digital Circuits Laboratory (EE2404) for undergraduates — lab sessions and practical circuit concepts.</p>
+      </div>
+      <div class="job">
+        <h3>Internship Trainee (on-site) — KPIT</h3>
+        <p class="meta">April 2025 – July 2025 · Pimpri-Chinchwad, Maharashtra</p>
+        <p>Automotive embedded systems in C / Embedded C. AUTOSAR structure, CAN message TX/RX and frame structure between ECUs, hardware–software interaction in vehicle systems.</p>
+      </div>
+      <div class="job">
+        <h3>Quality Analyst — GravEiens Eduservices Pvt. Ltd.</h3>
+        <p class="meta">July 2024 – September 2024</p>
+        <p>Reviewed faculty solutions for accuracy and clarity, resolved discrepancies, and independently solved unanswered problems.</p>
+      </div>
+      <div class="job">
+        <h3>Marketing Team Lead — Bengali Society VITCC</h3>
+        <p class="meta">September 2023 – April 2024 · VIT Chennai</p>
+        <p>Led marketing for the Bengali Literary Society and grew campus visibility of the organisation.</p>
+      </div>
+      <div class="job">
+        <h3>Outreach Head — CITTAA Student Chapter VITC</h3>
+        <p class="meta">May 2023 – April 2024 · VIT Chennai</p>
+        <ul>
+          <li>Organised outreach programmes across multiple events.</li>
+          <li>Built partnerships with other departments.</li>
+          <li>Ran campaigns that improved chapter visibility.</li>
+        </ul>
+      </div>
+
+      <h2>Projects</h2>
+      <div class="job">
+        <h3>InGaAs/AlGaAs HEMT — mole-fraction engineering</h3>
+        <p class="meta">Sentaurus TCAD · Dec 2025 – Apr 2026</p>
+        <p>Swept Al / In composition; extracted I<sub>D</sub>, g<sub>m</sub>, g<sub>m</sub>/I<sub>D</sub>, A<sub>v</sub>, C<sub>gg</sub>, f<sub>T</sub>, f<sub>max</sub>. Optimum at Al = 0.30, In = 0.20 with peak intrinsic gain 19.19.</p>
+      </div>
+      <div class="job">
+        <h3>Common-source amplifier (NMOS + PMOS triode load)</h3>
+        <p class="meta">Cadence Virtuoso · October 2026</p>
+        <p>DC operating point, AC gain A<sub>v</sub>, and load-resistance vs gain trade-off.</p>
+      </div>
+
+      <h2>Education</h2>
+      <div class="job">
+        <h3>Birla Institute of Technology, Mesra</h3>
+        <p class="meta">M.Tech, Electronics and Communication Engineering · 2025 – 2027 · CGPA 8.27/10</p>
+        <p>Specialisation: VLSI Design &amp; Embedded Systems</p>
+      </div>
+      <div class="job">
+        <h3>Vellore Institute of Technology, Chennai</h3>
+        <p class="meta">B.Tech, Electronics and Communication Engineering · 2021 – 2025 · CGPA 8.28/10</p>
+      </div>
+      <div class="job">
+        <h3>Calcutta Boys' School</h3>
+        <p class="meta">Class 12, Science with Economics · 2021</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
